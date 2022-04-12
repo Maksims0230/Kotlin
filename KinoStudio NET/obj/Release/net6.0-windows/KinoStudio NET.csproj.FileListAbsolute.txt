@@ -1,0 +1,60 @@
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\KinoStudio NET.exe
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\KinoStudio NET.deps.json
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\KinoStudio NET.runtimeconfig.json
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\KinoStudio NET.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\KinoStudio NET.pdb
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\ControlzEx.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\LiveCharts.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\MahApps.Metro.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\MaterialDesignColors.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.csproj.AssemblyReference.cache
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.csproj.ResolveComReference.cache
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\ActorsView.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\ActorView.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\AuthorizeView.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\EmployeeGraphView.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\EmployeesView.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\EmployeeView.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\OrganisationsView.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\PostersImagesView.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\UsersView.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\App.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET_MarkupCompile.cache
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET_MarkupCompile.lref
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\App.baml
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\ActorsView.baml
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\ActorView.baml
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\AuthorizeView.baml
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\EmployeeGraphView.baml
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\EmployeesView.baml
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\EmployeeView.baml
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\OrganisationsView.baml
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\PostersImagesView.baml
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\View\UsersView.baml
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.g.resources
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.AssemblyInfoInputs.cache
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.AssemblyInfo.cs
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.csproj.CoreCompileInputs.cache
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.csproj.CopyComplete
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\refint\KinoStudio NET.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.pdb
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.genruntimeconfig.cache
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\ref\KinoStudio NET.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\KinoStudio NET.dll.manifest
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\Release\net6.0-windows\KinoStudio NET.application
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.dll.manifest
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\obj\Release\net6.0-windows\KinoStudio NET.application

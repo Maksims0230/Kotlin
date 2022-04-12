@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\ActorsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ActorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AuthorizeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\EmployeeGraphView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\EmployeesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\EmployeeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\OrganisationsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\PostersImagesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UsersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\ActorsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ActorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AuthorizeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\EmployeeGraphView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\EmployeesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\EmployeeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\OrganisationsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\PostersImagesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UsersView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

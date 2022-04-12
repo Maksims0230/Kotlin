@@ -1,0 +1,20 @@
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\KinoStudio NET.exe
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\KinoStudio NET.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\KinoStudio NET.deps.json
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\KinoStudio NET.runtimeconfig.json
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\KinoStudio NET.pdb
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\ControlzEx.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\LiveCharts.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\LiveCharts.Wpf.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\MahApps.Metro.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\MaterialDesignColors.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\MaterialDesignThemes.Wpf.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\Microsoft.Xaml.Behaviors.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\Newtonsoft.Json.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\System.Data.SqlClient.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\de\MahApps.Metro.resources.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\runtimes\win-arm64\native\sni.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\runtimes\win-x64\native\sni.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\runtimes\win-x86\native\sni.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maksi\source\repos\KinoStudio NET\KinoStudio NET\bin\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

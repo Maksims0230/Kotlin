@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="KinoStudio NET.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="ru" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="14336">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7/wCcepqAkgXYZ2KMHet/evnFtzT/YlOBjDu3tPKSjM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ControlzEx.dll" size="251456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ps7ukELpDaSkMwB3KXePclFvdiWZ95IIOcdR4YCkfLA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KinoStudio NET.deps.json" size="13200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NIOjDs5c23h3Th//KKBtdZO06CHvJdevtFaBw8GsNPE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KinoStudio NET.dll" size="172544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UK/Bo1PFmGHRTp+A+yh7gCPmdCMsV5rPwnYiqvBjYMw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KinoStudio NET.exe" size="149504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4pd9hVrCPRC2kd4uSJDPT1N+OSlzIVX1cCFbHGGfjlY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KinoStudio NET.runtimeconfig.json" size="372">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HsoPDHAHCqg7tgnkt0mybctECXhDJgMnJjlHIiJKCYo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LiveCharts.dll" size="152064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n8+Jg3tg9pwcUB5M+k0oYIh6/QuPMlgDNn55Wk47yco=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LiveCharts.Wpf.dll" size="217600">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>G9uxtcGlBlPlwmFh6bfAPtxRhyGm4Q6hgKhASdlnEGs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MahApps.Metro.dll" size="3568416">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gof6H+fgLR1r84cVJ2o/XHHyzRjyo65Mh4Krci5vkKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MaterialDesignColors.dll" size="302592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ls1gddQjxz/a8vUKeaFB3GRJZrXfk2/OH8C2x1ilKlM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MaterialDesignThemes.Wpf.dll" size="8636416">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>igdCLVN0aLnTM6zGqT1PxThCNvwTFFTavbSwq/yBSPQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Xaml.Behaviors.dll" size="145792">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>guHcvKT0zlHTfyJ4B09rxS0vWB4laD+J49lLS7HM7Ss=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Newtonsoft.Json.dll" size="695336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cs8pHUurDt0IqbB8YXPh560au3q3J/1wRL9jBddRVmE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" size="955256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8X/i6l+S+R+6OInDwZlU4vi19G4Z/GYFgp4i9/uZTCA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" size="1023872">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yZWTJGsP9SjC3ZbutMFgp+E0vA15mJ0HhGgqafEVaAM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-arm64\native\sni.dll" size="174224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7xhFjE3Lk/a06sB+FYnPNFC/h48t1iP1009qDxsW5Xo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x64\native\sni.dll" size="160040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aHBcTvmrgY8pVqeOBfP+/OUBoUSHk7BztGEQvrSbR9Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x86\native\sni.dll" size="136488">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FEbWsm2kmlqfNmly+J9OI2+RaVXzHdw467liF8HKzpw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Data.SqlClient.dll" size="267136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MEhlg3Y9xPg4PVw50tdHctlzHHqHTALt1dOljI84JJo=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>

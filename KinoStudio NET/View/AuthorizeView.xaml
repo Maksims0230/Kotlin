@@ -1,0 +1,98 @@
+﻿<Window x:Class="KinoStudio_NET.View.AuthorizeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KinoStudio_NET.View"
+        xmlns:viewModel="clr-namespace:KinoStudio_NET.ViewModel"
+        xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:propertyBehavior="clr-namespace:KinoStudio_NET.PropertyBehavior"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="18"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Авторизация" Height="450" Width="800" MinHeight="250" MinWidth="250">
+
+    <Window.DataContext>
+        <viewModel:AuthorizeViewModel />
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+
+            <materialDesign:Card VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0, 0, 0, -10"
+                                 Background="AliceBlue" UniformCornerRadius="13" MinWidth="200">
+                <Grid Margin="20, 10, 20, 30">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <materialDesign:PackIcon Grid.Column="0" Margin="-13, 8, 0 ,0" VerticalAlignment="Center"
+                                                 Kind="UserBox" />
+
+                        <TextBox Grid.Column="1" Margin="4, 0, 0, 0"
+                                 Text="{Binding Login, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"
+                                 materialDesign:HintAssist.Hint="Логин"
+                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                 materialDesign:HintAssist.FloatingScale="0.93" />
+                    </Grid>
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <materialDesign:PackIcon Grid.Column="0" Margin="-13, 8, 0 ,0" VerticalAlignment="Center"
+                                                 Kind="ShieldKey" />
+
+                        <PasswordBox Grid.Column="1" Margin="4, 0, 0, 0"
+                                     materialDesign:HintAssist.Hint="Пароль"
+                                     Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                                     materialDesign:HintAssist.FloatingScale="0.93">
+                            <b:Interaction.Behaviors>
+                                <propertyBehavior:DependencyPropertyBehavior
+                                    UpdateEvent="PasswordChanged"
+                                    Property="Password"
+                                    Binding="{Binding Password}" />
+                            </b:Interaction.Behaviors>
+                        </PasswordBox>
+                    </Grid>
+                </Grid>
+            </materialDesign:Card>
+
+            <Button VerticalAlignment="Top" HorizontalAlignment="Center"
+                    Margin="0, -6, 0, 0" Padding="5, 3, 5, 3"
+                    Content="Войти" FontWeight="Regular" FontSize="18"
+                    Command="{Binding Authorize}"
+                    Style="{StaticResource MaterialDesignFlatAccentBgButton}"
+                    materialDesign:ShadowAssist.ShadowDepth="Depth2"
+                    materialDesign:ShadowAssist.Darken="True"
+                    materialDesign:ShadowAssist.ShadowEdges="Bottom">
+            </Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>KinoStudio_NET</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ilmerge" Version="3.0.41" />
+    <PackageReference Include="LiveCharts.NetCore" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf.Core" Version="0.9.8" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.2.1" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.37" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Converters\" />
+  </ItemGroup>
+
+</Project>
